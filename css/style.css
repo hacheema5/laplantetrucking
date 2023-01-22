@@ -816,6 +816,77 @@ span.p-icon3{
 	padding:3% 0%;
 	border: 2px solid #FFF;
 }
+
+/*-- New Employment --*/
+
+.employment-plans{
+	padding:3em 0;
+	background:black;
+}
+.employment-plans-head h3{
+	color: #FFF;
+	font-weight: 700;
+	font-size: 1.8em;
+	margin: 0;
+	text-transform:uppercase;
+}
+.employment-plans-head span{
+	height: 1px;
+	width: 8%;
+	background: #FFF;
+	display: inline-block;
+}
+
+.employment-plan-grids {
+	margin-top: 5%;
+}
+.employment-plan-grid-left{
+	margin-top:0.5em;
+	border-right: 1px solid #e25050;
+}
+.employment-plan-grid-left1{
+	margin-top:0.5em;
+	border-right: 1px solid #fff;
+}
+.employment-plan-grid-left p label, .employment-plan-grid-left1 p label{
+	font-size: 0.4em;
+	vertical-align: text-top;
+}
+.employment-plan-grid-left h4, .employment-plan-grid-left1 h4{
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: 700;
+	margin: 0.2em;
+	font-size: 1.1em;
+}
+.employment-plan-grid-right ul li span{
+	width: 10px;
+	height: 8px;
+	display: inline-block;
+	background: url(../images/check-icon.png) no-repeat 0px 0px;
+	margin-right: 0.2em;
+	vertical-align: middle;
+}
+.employment-plan-grid-right ul li a{
+	color: #FFF;
+	font-size: 0.8125em;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.8em;
+	text-decoration:none;
+}
+.employment-plan-grid-right ul li a:hover{
+	color:#FBB;
+}
+.employment-plan-grid {
+	background:#d14343;
+	padding:3% 0%;
+}
+.employment-plan-middlegrid {
+	padding:3% 0%;
+	border: 2px solid #FFF;
+}
+/* End of Employment */
+
 #flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
 	display: none;
 }
